@@ -1,0 +1,102 @@
+==============================================================================
+#                      SCENARIO FORECAST PROTOCOL: PHASE 5
+# ==============================================================================
+# ------------------------------------------------------------------------------
+#                                  CONTEXT
+# ------------------------------------------------------------------------------
+# You are executing phase 5 out of a 7-phase protocol.
+# GOAL: To synthesize all data from Phases 1-4 into three coherent, narrative
+# scenarios that provide a clear forecast for the company's valuation. This final
+# report will guide strategic investment decisions.
+# CURRENT PHASE OBJECTIVE: Construct the Best, Base, and Worst-Case scenarios,
+# assess the current trajectory, and provide a strategic recommendation.
+
+# ------------------------------------------------------------------------------
+#                    CORE FRAMEWORK: SCENARIO CONSTRUCTION LOGIC
+# ------------------------------------------------------------------------------
+# You will now construct the three scenarios by weaving together the Causal Chains
+# from Phase 3. Use the following logic:
+
+# 1.  **Worst Case Scenario (The "Thanatos World"):**
+#     - This narrative is defined by the materialization of the most severe **Threat** Causal Chains identified in Phase 3.
+#     - It assumes that key negative risks manifest and opportunities fail to materialize.
+
+# 2.  **Best Case Scenario (The "Alpha World"):**
+#     - This narrative is defined by the materialization of the most impactful **Opportunity** Causal Chains.
+#     - It assumes the company successfully navigates threats and captures significant upside.
+
+# 3.  **Base Case Scenario (The "Continuum World"):**
+#     - This narrative is the most probable future. It is not "no change," but rather a realistic mix.
+#     - Construct it using the highest probability (Tier 1-2) events and chains, incorporating both expected headwinds (minor threats) and tailwinds (minor opportunities) from your analysis.
+
+# ------------------------------------------------------------------------------
+#                                 COMMAND: PHASE 5
+# ------------------------------------------------------------------------------
+# 1.  Review all data from Phases 1-4.
+# 2.  First, provide an **"Assessment of Current Trajectory."** Based on the signals you analyzed in Phase 4, state which of the three scenarios our current path seems to be leaning towards and why.
+# 3.  Next, build the three scenarios (Worst, Base, Best) according to the construction logic defined above.
+# 4.  For each scenario, you must write a compelling narrative and present the full analysis using the EXACT `OUTPUT SPECIFICATION` below.
+# 5.  Finally, conclude with a **"Strategic Recommendation & Positioning"** section that outlines the implications for an investor's portfolio based on the complete analysis.
+
+# ------------------------------------------------------------------------------
+#                                OUTPUT SPECIFICATION
+# ------------------------------------------------------------------------------
+# Present your final analysis as a complete strategic report.
+
+# ================================================================
+#                       STRATEGIC SCENARIO FORECAST
+# ================================================================
+
+# **Assessment of Current Trajectory:**
+# [Provide a 2-4 sentence analysis of which world (Worst, Base, Best) the current signals from Phase 4 are pointing towards and why.]
+#
+# ---
+#
+# ### **Scenario 1: Worst Case**
+#
+# **Narrative:** [Write a compelling 1-2 paragraph story of this future. Describe how the world evolves, how the key negative events unfold, and what the impact on the company's operations, market position, and investor sentiment is.]
+#
+# - **Defining Causal Chain:** [State the name of the primary "Threat" chain from Phase 3 that drives this scenario.]
+# - **Final Outcome:** Probability: [Chain's Final Probability (20%-40%)] | Valuation Change: [Estimate final potential valuation change, e.g., "0% to -20%".]
+# - **Key Signals Indicating This Path:**
+#   - **Signal 1:** [Copy the key signal to watch from Phase 4.]
+#   - **Signal 2:** [Copy the second key signal to watch from Phase 4.]
+#
+# ---
+#
+# ### **Scenario 2: Base Case**
+#
+# **Narrative:** [Write a compelling 1-2 paragraph story of this future. Describe a realistic path forward, incorporating the most probable positive and negative events. Explain how the company manages expected challenges and executes on its core strategy.]
+#
+# - **Defining Causal Chain:** [State the name of the most probable causal chain(s) from Phase 3 that drive this scenario.]
+# - **Final Outcome:** Probability: [Chain's Final Probability (20%-40%)] | Valuation Change: [Estimate final potential valuation change, e.g., "0% to -20%".]
+# - **Key Signals Indicating This Path:**
+#   - **Signal 1:** [Copy the key signal to watch from Phase 4 for this path.]
+#   - **Signal 2:** [Copy the second key signal to watch from Phase 4 for this path.]
+#
+# ---
+#
+# ### **Scenario 3: Best Case**
+#
+# **Narrative:** [Write a compelling 1-2 paragraph story of this future. Describe how key opportunities are seized, how threats are neutralized or avoided, and how this leads to outsized growth and a fundamental re-rating of the company by the market.]
+#
+# - **Defining Causal Chain:** [State the name of the primary "Opportunity" chain from Phase 3 that drives this scenario.]
+# - **Final Outcome:** Probability: [Chain's Final Probability (20%-40%)] | Valuation Change: [Estimate final potential valuation change, e.g., "0% to -20%".]
+# - **Key Signals Indicating This Path:**
+#   - **Signal 1:** [Copy the key signal to watch from Phase 4 for this path.]
+#   - **Signal 2:** [Copy the second key signal to watch from Phase 4 for this path.]
+#
+# ---
+#
+# ### **Strategic Recommendation & Positioning**
+#
+# Based on the comprehensive analysis, here are the strategic implications:
+# - **Current Position:** Given that the current trajectory leans towards the **[Name of World]**, a **[Hold / Cautiously Accumulate / Trim Position]** stance is warranted.
+# - **Triggers for Action:**
+#   - **To Increase Position (Buy):** Monitor the signals for the **Alpha World**. If [Key Signal 1 for Best Case] and [Key Signal 2 for Best Case] both confirm, it indicates a fundamental upside catalyst is materializing.
+#   - **To Decrease Position (Sell):** Monitor the signals for the **Thanatos World**. If [Key Signal 1 for Worst Case] confirms, it serves as a critical early warning to protect capital. A confirmation of [Key Signal 2 for Worst Case] would suggest an urgent exit.
+#
+# ================================================================
+#
+# Once you have generated the complete report, state the following verbatim:
+# "Phase 5 is complete. Please confirm to proceed to the 6 phase, Phase 6: Red Team Challenge."
