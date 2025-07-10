@@ -1,0 +1,89 @@
+==============================================================================
+#                      SCENARIO FORECAST PROTOCOL: PHASE 4
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+#                                  CONTEXT
+# ------------------------------------------------------------------------------
+# You are executing Phase 4 of a 7-phase protocol.
+# GOAL: To create an actionable monitoring framework for each Causal Chain from
+# Phase 3. For each chain, you will define the specific "Signals" that act as
+# early warnings and analyze the "Sentiment" landscape to understand who is
+# shaping the public and market perception of these events.
+# CURRENT PHASE OBJECTIVE: For each major causal chain, define its leading
+# indicators and the key actors driving the narrative.
+
+# ------------------------------------------------------------------------------
+#                       CORE ANALYTICAL FRAMEWORK (REINFORCEMENT)
+# ------------------------------------------------------------------------------
+# You will now define the observable indicators for the chains you built.
+
+# 1.  **Signal Definition:** A Signal is a specific, observable piece of information
+#     or data point that serves as a leading indicator for an event in a chain.
+#     Signals should be grounded in the `Sources & Validation Framework` ([T1]/[T2]/[T3]).
+#     - *Good Signal:* "A statement from a key FOMC member hinting at a rate hike." ([T1])
+#     - *Bad Signal:* "People feeling worried about the economy." (Too vague)
+
+# 2.  **Signal Validation:** Instead of "false positives," we will define conditions
+#     for validation. For each signal, you must define what would confirm it versus
+#     what would suggest it is noise.
+
+# 3.  **Sentiment & Narrative Analysis:** You will identify the key actors shaping
+#     the narrative around the events in the chain, categorizing them as:
+#     - **Drivers:** The originators of the narrative (e.g., a research institute publishing a landmark study, a government agency launching an inquiry).
+#     - **Amplifiers:** Actors who support and spread the narrative (e.g., specific mainstream media outlets, influential social media accounts, allied political groups).
+#     - **Counters:** Actors who actively push back against the narrative (e.g., industry lobby groups, rival political parties, competitor PR departments).
+
+# ------------------------------------------------------------------------------
+#                                 COMMAND: PHASE 4
+# ------------------------------------------------------------------------------
+# 1.  Take each **Causal Chain** you created in Phase 3.
+# 2.  For each chain, conduct a detailed Signal & Sentiment analysis. Focus this
+#     analysis on the **first one or two events** in the chain, as these are the
+#     most critical to monitor.
+# 3.  Present your complete analysis using the EXACT `OUTPUT SPECIFICATION` below.
+#     Provide a separate, complete report for each Causal Chain.
+
+# ------------------------------------------------------------------------------
+#                                OUTPUT SPECIFICATION
+# ------------------------------------------------------------------------------
+# Present the analysis for each chain in a structured report format.
+
+# EXAMPLE FORMAT:
+# ### Analysis for Causal Chain 1: Geopolitical Supply Chain Disruption
+#
+# - **Chain Summary:** A geopolitical conflict in a key supplier region triggers an export ban on critical materials, causing a production halt.
+# - **Final Chain Probability:** 51.3%
+# - **Final Valuation Outcome:** -35%
+#
+# ---
+#
+# #### **Signal Monitoring Dashboard**
+#
+# **Signal 1 to Watch:** Increasing naval military drills in the target region.
+#   - **Source:** [T2] Defense publications (Jane's), [T3] OSINT flight/ship trackers.
+#   - **Confirmation:** Official travel warnings issued by G7 nations; a key competitor announces it is stockpiling materials.
+#   - **False Signal Condition:** Drills are announced as routine, pre-scheduled exercises and conclude without incident or escalation.
+#
+# **Signal 2 to Watch:** Nationalist rhetoric from political leaders in the region specifically mentioning "economic sovereignty" and "resource control."
+#   - **Source:** [T1] Official government transcripts, [T2] Local media reports.
+#   - **Confirmation:** Draft legislation is proposed related to export controls; diplomatic talks with key trading partners stall.
+#   - **False Signal Condition:** Rhetoric remains limited to speeches for domestic audiences with no corresponding policy action.
+#
+# #### **Sentiment & Narrative Analysis**
+#
+# - **Narrative Drivers:**
+#   - The national security apparatus and dominant political party within the supplier nation, framing export controls as a matter of national defense.
+# - **Narrative Amplifiers:**
+#   - State-controlled media in the region.
+#   - Hawkish geopolitical analysts on social media (X/Twitter).
+#   - Domestic industry groups that would benefit from reduced exports.
+# - **Counter-Narratives:**
+#   - The company's own industry lobby group, arguing for free trade.
+#   - Ministry of Finance/Trade officials in the supplier nation, warning of capital flight and economic damage.
+#   - International financial institutions like the IMF/World Bank.
+#
+# ---
+#
+# Once you have generated the report for each Causal Chain, state the following verbatim:
+# "Phase 4 is complete. The Signal & Sentiment analysis dashboards have been created. Please confirm to proceed to the final phase, Phase 5: Scenarios."
