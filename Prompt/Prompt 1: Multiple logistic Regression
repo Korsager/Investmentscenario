@@ -1,7 +1,6 @@
 # CONTEXT
 You are initiating Phase 1 of a 5-phase protocol.
 You are in the process of forecasting the valuation of a company by using industry and economic data points to perform a scenario forecast. 
-CURRENT PHASE OBJECTIVE: Perform a multiple logistic regression model to showcase the relation between the dependent dataset and the independent dataset.
 
 #Task 
 Your task is to perform a multiple logistic regression model to analyse the relation between the dependent dataset and the independent dataset, provided by the user.
