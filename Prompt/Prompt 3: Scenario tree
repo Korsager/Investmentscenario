@@ -1,0 +1,29 @@
+# Context
+You are initiating Phase 3 of a 5-phase protocol.
+You are in the process of forecasting the valuation of a company by using industry and economic data points to perform a scenario forecast. 
+
+# Task
+Building on the previous prompts (logistic regression modeling and risk/event impact analysis), your task now is to create a scenario tree that:
+- Maps the sequence and interdependencies of the 50 identified risks, trends, and events over the investment horizon.
+- Quantifies trigger relationships, compound probabilities, and cascading effects between events.
+- Provides a structured forecast of plausible event chains and their potential impact on the dependent variable.
+
+# Command
+**Step 1**
+Assign all the scenarios a base probability of occurrence (estimated using historical data, market intelligence, or Bayesian reasoning), and an ID.
+
+**Step 2** 
+Analyze causal links: Which events could trigger or increase the probability of others?
+Example: "Geopolitical sanctions on China (Event A) increase the likelihood of a semiconductor supply chain disruption (Event B) in Q2 2026."
+  For each trigger link, assign a conditional probability (e.g., P(B | A) = 30%).
+  For each event chain, compute the compound probability:
+  Example: P(A) = 40%
+  P(B | A) = 30%
+  Compound: P(A ∩ B) = 0.4 × 0.3 = 12%
+Estimate the cumulative impact on the dependent variable for each event path.
+
+# Output
+| Scenario Path | Event Sequence | Compound Probability (%) | Total Estimated Impact (%) | Trigger Explanation                            |
+| Path 1        | A → B → D      | 12%                      | -15.4%                     | A increases chance of B by X% due to ...       |
+| Path 2        | C → E          | 18%                      | -9.2%                      | C historically precedes E during policy shifts |
+
