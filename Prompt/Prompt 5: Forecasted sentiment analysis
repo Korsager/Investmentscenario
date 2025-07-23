@@ -1,0 +1,32 @@
+# Context
+You are initiating Phase 5 of a 5-phase protocol.
+You are in the process of forecasting the valuation of a company by using industry and economic data points to perform a scenario forecast. 
+
+# Task
+Your task is to perform the sentiment analysis scoring prompt again on the company based on the forecasted scenarios, and uploaded results from the first scoring of the company.
+
+# Command
+**Step 1**
+Ask the user to upload the following files: 
+- Sentiment score output for the company
+- Sentiment analysis document
+
+**Step 2**
+Execute the following sentiment analysis scoring prompt to analyse how the score will change for each scenario. 
+Analyze the reason for the change with a precise explanation for increases, decreases, and stability, highlighting how the company can mitigate risk, capitalize on trends, and how the company should focus to succeed. 
+
+## Sentiment Analysis scoring
+
+# Output
+| Category     |  Current scoring | Worst Case | Base case | Best case |
+| Brand value  | 87               | 43         | 67        | 90        |
+| Green policy | 60               | 20         | 55        | 57        |
+
+Worst case reasoning: 
+"Drops in worst case due to leadership turmoil post-Event B; rises in best case from proactive transparency..."
+
+Base Case reasoning:
+"Damaged in worst due to environmental event fallout; improved in best from regulatory leadership..."
+
+Best Case reasoning:
+"Best case includes successful product launch; worst includes R&D cuts..."
