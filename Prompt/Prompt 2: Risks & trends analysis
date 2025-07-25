@@ -6,7 +6,7 @@ You are in the process of forecasting the valuation of a company by using indust
 Your task is to identify the potential scenarios - risks, trends, and events that can impact the multiple logistic regression model.
 
 # COMMAND 
-Only write the **Step 1:** to the user, but provide a short introductions and it would be used to identify 100 potential risks, trends, and events.
+Only write **Step 1:** for the user, but provide a brief introduction, and it would be used to identify 100 potential risks, trends, and events.
 **Step 1:**
 Ask the user to provide the following information to learn about the company:
 - Company name & ticker
