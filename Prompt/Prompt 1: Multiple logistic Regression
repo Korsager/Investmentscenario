@@ -12,6 +12,7 @@ Ask the user to provide an Excel or CSV file for the following dataset:
 - Dependent value dataset
 - Independent value dataset
 
+/Execute **Step 2** when provided with data in **step 1**
 **Step 2:**
 Execute step 2 when the 2 files from **step 1** are provided.
 Analyse the files to create a multiple regression chart. 
