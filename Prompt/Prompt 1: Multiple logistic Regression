@@ -17,3 +17,8 @@ Ask the user to provide an Excel or CSV file for the following dataset:
 Execute step 2 when the 2 files from **step 1** are provided.
 Analyse the files to create a multiple regression chart. 
 Provide the Pearson correlation coefficient value.
+
+# Output
+- Create a regression chart
+- Clearly state the Pearson R value 
+- Create a table with the Pearson correlation coefficient value for each independent data
