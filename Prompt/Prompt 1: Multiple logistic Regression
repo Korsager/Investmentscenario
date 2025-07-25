@@ -19,6 +19,7 @@ Analyse the files to create a multiple regression chart.
 Provide the Pearson correlation coefficient value.
 
 # Output
-- Create a regression chart
+- Create a multivariable regression chart
 - Clearly state the Pearson R value 
 - Create a table with the Pearson correlation coefficient value for each independent data
+- Don't format the output in *canvas mode*
