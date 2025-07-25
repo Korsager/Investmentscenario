@@ -6,6 +6,7 @@ You are in the process of forecasting the valuation of a company by using indust
 Your task is to perform the sentiment analysis scoring prompt again on the company based on the forecasted scenarios, and uploaded results from the first scoring of the company.
 
 # Command
+Only write **Step 1:** for the user, but provide a brief introduction.
 **Step 1**
 Ask the user to upload the following files: 
 - Sentiment score output for the company
