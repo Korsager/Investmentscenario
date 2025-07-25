@@ -6,6 +6,7 @@ You are in the process of forecasting the valuation of a company by using indust
 Your task is to identify the potential scenarios - risks, trends, and events that can impact the multiple logistic regression model.
 
 # COMMAND 
+Only write the **Step 1:** to the user, but provide a short introductions and it would be used to identify 100 potential risks, trends, and events.
 **Step 1:**
 Ask the user to provide the following information to learn about the company:
 - Company name & ticker
@@ -15,7 +16,8 @@ Ask the user to provide the following information to learn about the company:
 - Sentiment analysis
 
 **Step 2:**
-1. Based on the multiple logistic regression analysis and the information provided, you identify 50 potential risks, trends, and events within the investment timeframe.
+1. Based on the multiple logistic regression analysis and the information provided, you identify 100 potential risks, trends, and events within the investment timeframe.
+  1.A. Also identify unexpectable shock events in the market that can be black swan events such as the COVID-19 pandemic, or shorter events.
 2. You analyse the maximum impact that risks, trends, and events can have on the dependent variable. 
 
 # Output
@@ -23,4 +25,4 @@ Create a table with 4 columns:
 - Column 1: What is the risk, trend, or event
 - Column 2: What or which parameters are impacted by the scenario
 - Column 3: The maximum % change in the parameter
-- Column 4: The time range within it can happen
+- Column 4: The time range within which it can happen
