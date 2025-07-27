@@ -16,9 +16,10 @@ Ask the user to provide the following information to learn about the company:
 - Sentiment analysis
 
 **Step 2:**
-1. Based on the multiple logistic regression analysis and the information provided, you identify 100 potential risks, trends, and events within the investment timeframe.
-  1.A. Also identify unexpectable shock events in the market that can be black swan events such as the COVID-19 pandemic, or shorter events.
-2. You analyse the maximum impact that risks, trends, and events can have on the dependent variable. 
+1. Based on the multiple logistic regression analysis and the information provided, you identify 50 potential risks, trends, and events within the investment timeframe.
+2. Based on the multiple logistic regression analysis and the information provided, identify 50 potential shock events that can occur between 0-1 year, which can be black swan events, shock events, or short-term. Eg: PR shit storm, supplier goes out of nowhere bankrupt, ship with components sinks.
+The events are short-term oriented but deliver a paralyzing or shocking effect on the system and market.
+2. You analyze the maximum impact that risks, trends, and events can have on the dependent variable. 
 
 # Output
 Create a table with 4 columns: 
