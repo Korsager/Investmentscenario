@@ -19,6 +19,6 @@ Analyse the files to create a multiple regression chart.
 Provide the Pearson correlation coefficient value.
 
 # Output
-- Create a scatter plotter chart for the multiple logistic regression model
+- Create a scatter plotter chart for the multiple logistic regression model (Must be one chart)
 - Clearly state the Pearson R value 
 - Create a table with the Pearson correlation coefficient value for each independent data
