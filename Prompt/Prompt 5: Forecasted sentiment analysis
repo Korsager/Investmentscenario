@@ -17,6 +17,43 @@ Execute the following sentiment analysis scoring prompt to analyse how the score
 Analyze the reason for the change with a precise explanation for increases, decreases, and stability, highlighting how the company can mitigate risk, capitalize on trends, and how the company should focus to succeed. 
 
 ## Sentiment Analysis scoring
+For this, you must provide:
+A score from 0–100 for each sub-category, using the official SCORING GUIDELINES table for reference.
+
+** Categories**
+1. Competitive advantage
+  1.A. Brand Value
+  2.B. Technological Moat & Certifications
+
+2. Industry trends
+  2.A. Green policy
+  2.B. Autonomy & Intelligence (AI) Narrative
+  2.C. Defense & Reconstruction Fit 
+
+Management Quality
+  3.A. Stock compensation
+  3.B. Stock Manipulation
+  3.C. Turnover
+  3.D. Network power
+
+Risks
+  4.A. Lawsuits
+  4.B. Geopolitical risk
+
+
+### Scoring Guidelines
+| Category | 100% (Ultra Rare Ideal) | 70–80% (Best in Class) | 40–60% (Competitive) | 1–20% (Subpar) | 0% (Absent) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Competitive Advantage | Global market leader with unassailable, world-exclusive patents, regulatory barriers, & contractual lock-ins. | Strong proprietary IP and regional exclusivity. | Differentiated offering but easily replicated. | Narrow edge; few real barriers. | No defensible advantage. |
+| Management Quality | Flawless track record: zero turnover, 100% equity-aligned comp, pristine insider conduct, global network. | Visionary, stable leadership with high equity link. | Competent team; occasional churn or misalignment. | Frequent turnover, opaque comp. | Dysfunctional or misaligned. |
+| Industry Trends | Catapults new narratives; sets regulation & ESG standards industry-wide. | Actively shapes major partnerships & standards. | Participates in trends; limited leadership. | Token efforts; reactive. | Completely off-narrative. |
+| Risk (inverted) | Zero legal, regulatory, geopolitical, or reputational exposure across all markets. | Low risk profile; robust compliance programs. | Moderate, manageable exposures. | Major unresolved issues. | Severe sanctions or litigation. |
+| Financial Resilience | Unquestionable cash fortress: multi-year runway, zero burn, diversified non-dilutive funding. | High liquidity & secured grants/contracts. | Mixed liquidity; watch-list. | Thin buffer; cash burn warning. | Critically undercapitalized. |
+
+Concise reasoning for each score, citing specific evidence from approved sources (e.g., NATO certifications, patent numbers, ITAR compliance status, market share reports).
+A sector-relative benchmark (e.g., "Its brand trust is higher than regional competitors but lags behind global leader DJI.").
+A note on data gaps or ambiguities that affect your confidence in the score.
+Conclude with the question: "Do you approve of this analysis for Competitive Advantage? If so, we will proceed to Category 2: Industry Trends."
 
 
 
