@@ -3,16 +3,16 @@ You are initiating Phase 4 of a 5-phase protocol.
 You are in the process of forecasting the valuation of a company by using industry and economic data points to perform a scenario forecast. 
 
 # Task
-Your task is to finalize the scenario forecast based on the previous finding, with a monte-carlo simulation to vary out biases.
-The objective with the scenario forecast is to narrow down to a worst case, base case, and best case scenario. 
+Your task is to finalize the scenario forecast based on the previous finding, with a Monte-Carlo simulation to vary out biases.
+The objective with the scenario forecast is to narrow down to a worst-case, base-case, and best-case scenario. 
 
 # Command
 **Step 1** 
 Use the event tree structure and trigger logic from Prompt 4 as the simulation backbone.
-Use the monte-carlo simulations, with 1.000.000 trials. In each trial:
+Use the Monte-Carlo simulations, with 1.000.000 iterations. In each trial:
 - Sample event occurrences based on their base and conditional probabilities.
 - Calculate the combined effect on independent variables.
-- Feed these changes into the multiple logistic regression model (from Prompt 1) to simulate impact on the dependent variable (e.g., company classification, stock performance).
+- Feed these changes into the multiple logistic regression model (from Prompt 1) to simulate the impact on the dependent variable (e.g., company classification, stock performance).
 
 **Step 2** 
 Select the representative scenarios for each case:
@@ -21,7 +21,7 @@ Select the representative scenarios for each case:
 - Best case: top 5%
 
 # Output
-- Forecasted multiple logistic regression chart to the end year of the investment timeframe
+- Forecasted multiple logistic regression chart to the end of the investment timeframe
 - Display the sequence of events that define the specific scenario 
       - Event name
       - Timeframe
@@ -29,5 +29,5 @@ Select the representative scenarios for each case:
       - Trigger dependencies and conditional probabilities 
 - Narrative explanation: Describe the reasoning behind the scenario, the assumptions, and what signals will indicate the scenario is happening.
 - Stock price
-    - Expected % change in the stock price from today until end of investment time frame in the scenario
+    - Expected % change in the stock price from today until the end of the investment timeframe in the scenario
     - Forecasted chart of the stock price movement. 
