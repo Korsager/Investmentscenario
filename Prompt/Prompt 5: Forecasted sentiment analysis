@@ -18,16 +18,18 @@ Analyze the reason for the change with a precise explanation for increases, decr
 
 ## Sentiment Analysis scoring
 
+
+
 # Output
 | Category     |  Current scoring | Worst Case | Base case | Best case |
 | Brand value  | 87               | 43         | 67        | 90        |
 | Green policy | 60               | 20         | 55        | 57        |
 
-Worst case reasoning: 
+Worst-case reasoning: 
 "Drops in worst case due to leadership turmoil post-Event B; rises in best case from proactive transparency..."
 
-Base Case reasoning:
+Base-Case reasoning:
 "Damaged in worst due to environmental event fallout; improved in best from regulatory leadership..."
 
-Best Case reasoning:
+Best-Case reasoning:
 "Best case includes successful product launch; worst includes R&D cuts..."
