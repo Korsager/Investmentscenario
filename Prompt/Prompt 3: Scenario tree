@@ -22,8 +22,12 @@ Example: "Geopolitical sanctions on China (Event A) increase the likelihood of a
   Compound: P(A ∩ B) = 0.4 × 0.3 = 12%
 Estimate the cumulative impact on the dependent variable for each event path.
 
+The *event sequence* can be of any length, but also has multiple events triggered at the same time. 
+The *event sequence* timeline is from today until the end of the investment timeframe.
+Create 20 scenario paths.
+
 # Output
 | Scenario Path | Event Sequence | Compound Probability (%) | Total Estimated Impact (%) | Trigger Explanation                            |
 | Path 1        | A → B → D      | 12%                      | -15.4%                     | A increases chance of B by X% due to ...       |
 | Path 2        | C → E          | 18%                      | -9.2%                      | C historically precedes E during policy shifts |
-
+| Path 3        | C → E → D → B  | 18%                      | -9.2%                      | C historically precedes E during policy shifts |
