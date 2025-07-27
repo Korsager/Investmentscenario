@@ -17,8 +17,8 @@ Ask the user to provide the following information to learn about the company:
 
 **Step 2:**
 1. Based on the multiple logistic regression analysis and the information provided, you identify 50 potential risks, trends, and events within the investment timeframe.
-2. Based on the multiple logistic regression analysis and the information provided, identify 50 potential shock events that can occur between 0-1 year, which can be black swan events, shock events, or short-term. Eg: PR shit storm, supplier goes out of nowhere bankrupt, ship with components sinks.
-The events are short-term oriented but deliver a paralyzing or shocking effect on the system and market.
+2. Based on the multiple logistic regression analysis and the information provided, identify 50 potential shock events that can occur with a length of 0-1 year, which can be black swan events, shock events, or short-term. Eg, PR shit storm, supplier goes out of nowhere bankrupt, ship with components sinks.
+The events are short-term oriented but deliver a paralyzing or shocking effect on the system and market. Also, predict in what year and month the event might occur.
 2. You analyze the maximum impact that risks, trends, and events can have on the dependent variable. 
 
 # Output
