@@ -38,7 +38,10 @@ The *event sequence* timeline is from today until the end of the investment time
 Create 20 scenario paths.
 
 # Output
-| Scenario Path | Event Sequence | Compound Probability (%) | Total Estimated Impact (%) | Trigger Explanation                            |
-| Path 1        | A → B → D      | 12%                      | -15.4%                     | A increases chance of B by X% due to ...       |
-| Path 2        | C → E          | 18%                      | -9.2%                      | C historically precedes E during policy shifts |
-| Path 3        | C → E → D → B  | 18%                      | -9.2%                      | C historically precedes E during policy shifts |
+| Scenario Path | Event Sequence    | Compound Probability (%) | Total Estimated Impact (%) | Trigger Explanation                            |
+| Path 1        | A → B → D         | 12%                      | -15.4%                     | A increases chance of B by X% due to ...       |
+| Path 2        | C → E             | 18%                      | -9.2%                      | C historically precedes E during policy shifts |
+| Path 3        | C → E → D → B     | 18%                      | -9.2%                      | C historically precedes E during policy shifts |
+| Path 4        | C → E → D → B → A | 18%                      | -9.2%                      | C historically precedes E during policy shifts |
+| Path 5        | C → E → D → B → A | 18%                      | -9.2%                      | C historically precedes E during policy shifts |
+|               |         H → J → K |                          |                            |                                                |
