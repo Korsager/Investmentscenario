@@ -51,11 +51,11 @@ Analysis Date: [Current Date]
 1. Executive Summary: Scenario Overview
 Provide a top-level summary table comparing the three scenarios.
 
-| Metric	          | Worst Case                   | Base Case                    | Best Case                 |
+| Metric              | Worst Case                   | Base Case                    | Best Case                 |
 | Scenario Narrative  |	e.g., "Regulatory Headwinds" | e.g., "Market Stabilization" | e.g., "Tech Breakthrough" |
-| Ending Stock Price  |	$[Value]	                 | $[Value]	                  | $[Value]                  |
-| Total % Change	    | $[% Change]  	           | $[% Change]	            | $[% Change]               |
-| Implied Probability |	Low	                       | Medium	                  | High                      |
+| Ending Stock Price  |	$[Value]                     | $[Value]                     | $[Value]                  |
+| Total % Change      | $[% Change]                  | $[% Change]                  | $[% Change]               |
+| Implied Probability |	Low                          | Medium                       | High                      |
 
 2. Base Case: [Scenario Name]
 A. Narrative & Strategic Outlook
