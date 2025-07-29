@@ -74,7 +74,7 @@ Display the specific sequence of key events from the simulation that defines thi
 C. Quantitative Forecast
 Stock Price Forecast: Display a line chart showing the projected stock price movement over the [Investment timeframe] horizon for this specific scenario.
 
-Performance Probability Trajectory: Display a line chart showing the evolution of the output probability P(Outcome) from the logistic regression model over the [Investment timeframe] horizon.
+Performance Probability Trajectory: (Insert a line chart showing the evolution of the output probability P(Outcome) from the logistic regression model over the [Investment timeframe] horizon)
 
 3. Best Case: [Scenario Name]
 (Repeat the structure from Section 2: A. Narrative, B. Causal Event Chain, C. Quantitative Forecast)
