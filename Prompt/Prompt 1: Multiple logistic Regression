@@ -37,7 +37,7 @@ Provide the Pearson correlation coefficient value.
 The output must follow the [## Output template]
 
 ## Output template
-Description: The chart below visualizes the predicted vs. actual values across the independent variables. This helps observe how well the model fits the data.
+Description: The chart below visualizes the values across the independent variables. This helps observe how well the model fits the data.
 (Insert plotted chart here – one combined regression chart with color-coded markers/lines for each independent variable, but also a regression line)
 
 Pearson Correlation Coefficient Table
