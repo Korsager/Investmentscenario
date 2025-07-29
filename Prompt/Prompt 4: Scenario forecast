@@ -71,17 +71,10 @@ Display the specific sequence of key events from the simulation that defines thi
 | e.g., Favorable Product Trial | Q2                  | N/A (Base Event)         | 15%                  |
 | e.g., FDA Fast-Track          | Q3                  | Favorable Product Trial  | 70% (Conditional)    |
 
-C. Quantitative Forecast
-1.  **Forecasted Revenue Trajectory:**
-    a.  **Generate a data set for the revenue forecast.** Start with the baseline revenue forecast from the regression model. For each quarter an event occurs, apply that event's impact to the model's independent variables (e.g., GDP, Military Expenditure) and re-calculate the dependent variable (Drone Revenue). This creates a time-series dataset showing how the revenue forecast evolves.
-    b.  **Using Python and Matplotlib, generate and display a line chart** based on this revenue data, titled "Forecasted Revenue Trajectory."
-
-2.  **Stock Price Forecast:**
-    a.  **Generate a data set for the stock price forecast.** Start with the "Stock price to date." For each quarter, calculate the percentage change in the "Forecasted Revenue Trajectory" data set and apply this same percentage change to the previous quarter's stock price.
-    b.  **Using Python and Matplotlib, generate and display a line chart** based on this stock price data, titled "Stock Price Forecast." The chart should reflect the underlying changes in the revenue forecast.
-
 3. Best Case: [Scenario Name]
-(Repeat the structure from Section 2: A. Narrative, B. Causal Event Chain, C. Quantitative Forecast)
+(Repeat the structure from Section 2: A. Narrative, B. Causal Event Chain)
 
 4. Worst Case: [Scenario Name]
-(Repeat the structure from Section 2: A. Narrative, B. Causal Event Chain, C. Quantitative Forecast)
+(Repeat the structure from Section 2: A. Narrative, B. Causal Event Chain)
+
+[Display a linear graph of the forecasted stock movement with 3 lines, one for each scenario, aligned with each scenario path]
