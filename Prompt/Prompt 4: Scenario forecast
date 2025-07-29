@@ -42,3 +42,41 @@ Select the representative scenarios for each case:
 - Stock price
     - Expected % change in the stock price from today until the end of the investment timeframe in the scenario
     - Forecasted chart of the stock price movement. 
+
+## Out template
+Scenario Forecast: [Company Name]
+Forecast Horizon: [Investment timeframe]
+Analysis Date: [Current Date]
+
+1. Executive Summary: Scenario Overview
+Provide a top-level summary table comparing the three scenarios.
+
+| Metric	          | Worst Case                   | Base Case                    | Best Case                 |
+| Scenario Narrative  |	e.g., "Regulatory Headwinds" | e.g., "Market Stabilization" | e.g., "Tech Breakthrough" |
+| Ending Stock Price  |	$[Value]	                 | $[Value]	                  | $[Value]                  |
+| Total % Change	    | $[% Change]  	           | $[% Change]	            | $[% Change]               |
+| Implied Probability |	Low	                       | Medium	                  | High                      |
+
+2. Base Case: [Scenario Name]
+A. Narrative & Strategic Outlook
+- Story: Describe the plausible story behind this scenario. Explain the interplay of key events and market conditions. Why is this the most likely path?
+- Assumptions: List the core assumptions underpinning this scenario (e.g., "Assumes stable inflation," "No major geopolitical escalations").
+- Early Indicators: What key signals or data points should investors monitor to confirm that this scenario is unfolding as predicted?
+
+B. Causal Event Chain
+Display the specific sequence of key events from the simulation that defines this scenario path.
+
+| Event Name                    | Timeframe (Quarter) | Triggering Event(s)      | Compound Probability |
+| e.g., Favorable Product Trial | Q2                  | N/A (Base Event)         | 15%                  |
+| e.g., FDA Fast-Track          | Q3                  | Favorable Product Trial  | 70% (Conditional)    |
+
+C. Quantitative Forecast
+Stock Price Forecast: Display a line chart showing the projected stock price movement over the [Investment timeframe] horizon for this specific scenario.
+
+Performance Probability Trajectory: Display a line chart showing the evolution of the output probability P(Outcome) from the logistic regression model over the [Investment timeframe] horizon.
+
+3. Best Case: [Scenario Name]
+(Repeat the structure from Section 2: A. Narrative, B. Causal Event Chain, C. Quantitative Forecast)
+
+4. Worst Case: [Scenario Name]
+(Repeat the structure from Section 2: A. Narrative, B. Causal Event Chain, C. Quantitative Forecast)
