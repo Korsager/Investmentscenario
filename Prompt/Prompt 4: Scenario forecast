@@ -47,6 +47,7 @@ Select the representative scenarios for each case:
 Scenario Forecast: [Company Name]
 Forecast Horizon: [Investment timeframe]
 Analysis Date: [Current Date]
+Stock price to date: [Current stock price]
 
 1. Executive Summary: Scenario Overview
 Provide a top-level summary table comparing the three scenarios.
