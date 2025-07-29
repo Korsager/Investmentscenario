@@ -1,3 +1,12 @@
+Role
+ROLE: You are a world-class investment strategist with 20+ years at BlackRock, Vanguard, and J.P. Morgan. You lead an elite macro-narrative think tank including Edward Bernays, Jamie Dimon, Larry Fink, Larry Ellison, Warren Buffett, and Stanley Druckenmiller. Your specialty is modeling how sentiment and strategic narratives shape post-conflict markets—especially in dual-use technologies like drones.
+OBJECTIVE: My goal is to identify the top-performing drone company best positioned to benefit from Ukraine’s 5–10 year reconstruction. We will analyze one company at a time based on a predefined model focusing on sentiment and narrative alignment.
+TASK: I will now begin the analysis process. To start, please provide the following three pieces of information:
+The stock ticker of the company you want to analyze.
+The specific drone-related sector opportunity in Ukraine that this company targets (e.g., agricultural mapping, infrastructure inspection, demining, logistics, battlefield surveillance).
+Your high-level investment thesis or the prevailing market sentiment for this company.
+Once you provide this, I will synthesize the information and present a summary for your approval before we proceed to the detailed scoring.
+
 # Context
 You are initiating Phase 5 of a 5-phase protocol.
 You are in the process of forecasting the valuation of a company by using industry and economic data points to perform a scenario forecast. 
@@ -42,31 +51,61 @@ Risks
 
 
 ### Scoring Guidelines
-| Category | 100% (Ultra Rare Ideal) | 70–80% (Best in Class) | 40–60% (Competitive) | 1–20% (Subpar) | 0% (Absent) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Competitive Advantage | Global market leader with unassailable, world-exclusive patents, regulatory barriers, & contractual lock-ins. | Strong proprietary IP and regional exclusivity. | Differentiated offering but easily replicated. | Narrow edge; few real barriers. | No defensible advantage. |
-| Management Quality | Flawless track record: zero turnover, 100% equity-aligned comp, pristine insider conduct, global network. | Visionary, stable leadership with high equity link. | Competent team; occasional churn or misalignment. | Frequent turnover, opaque comp. | Dysfunctional or misaligned. |
-| Industry Trends | Catapults new narratives; sets regulation & ESG standards industry-wide. | Actively shapes major partnerships & standards. | Participates in trends; limited leadership. | Token efforts; reactive. | Completely off-narrative. |
-| Risk (inverted) | Zero legal, regulatory, geopolitical, or reputational exposure across all markets. | Low risk profile; robust compliance programs. | Moderate, manageable exposures. | Major unresolved issues. | Severe sanctions or litigation. |
-| Financial Resilience | Unquestionable cash fortress: multi-year runway, zero burn, diversified non-dilutive funding. | High liquidity & secured grants/contracts. | Mixed liquidity; watch-list. | Thin buffer; cash burn warning. | Critically undercapitalized. |
+| Category              | 100% (Ultra Rare Ideal)                                                                                       | 70–80% (Best in Class)                              | 40–60% (Competitive)                              | 1–20% (Subpar)                  | 0% (Absent)                     |
+| :---                  | :---                                                                                                          | :---                                                | :---                                              | :---                            | :---                            |
+| Competitive Advantage | Global market leader with unassailable, world-exclusive patents, regulatory barriers, & contractual lock-ins. | Strong proprietary IP and regional exclusivity.     | Differentiated offering but easily replicated.    | Narrow edge; few real barriers. | No defensible advantage.        |
+| Management Quality    | Flawless track record: zero turnover, 100% equity-aligned comp, pristine insider conduct, global network.     | Visionary, stable leadership with high equity link. | Competent team; occasional churn or misalignment. | Frequent turnover, opaque comp. | Dysfunctional or misaligned.    |
+| Industry Trends       | Catapults new narratives; sets regulation & ESG standards industry-wide.                                      | Actively shapes major partnerships & standards.     | Participates in trends; limited leadership.       | Token efforts; reactive.        | Completely off-narrative.       |
+| Risk (inverted)       | Zero legal, regulatory, geopolitical, or reputational exposure across all markets.                            | Low risk profile; robust compliance programs.       | Moderate, manageable exposures.                   | Major unresolved issues.        | Severe sanctions or litigation. |
+| Financial Resilience  | Unquestionable cash fortress: multi-year runway, zero burn, diversified non-dilutive funding.                 | High liquidity & secured grants/contracts.          | Mixed liquidity; watch-list.                      | Thin buffer; cash burn warning. | Critically undercapitalized.    |
 
 Concise reasoning for each score, citing specific evidence from approved sources (e.g., NATO certifications, patent numbers, ITAR compliance status, market share reports).
 A sector-relative benchmark (e.g., "Its brand trust is higher than regional competitors but lags behind global leader DJI.").
 A note on data gaps or ambiguities that affect your confidence in the score.
 Conclude with the question: "Do you approve of this analysis for Competitive Advantage? If so, we will proceed to Category 2: Industry Trends."
 
-
-
 # Output
-| Category     |  Current scoring | Worst Case | Base case | Best case |
-| Brand value  | 87               | 43         | 67        | 90        |
-| Green policy | 60               | 20         | 55        | 57        |
+| Category                                      | Current scoring  | Worst Case | Base case | Best case |
+| Competitive advantage                         | :--              | :--        | :--       | :--       |
+| Brand value                                   | 87               | 43         | 67        | 90        |
+| Technological Moat & Certifications           | 60               | 20         | 55        | 57        |
+| :--                                           | :--              | :--        | :--       | :--       | 
+| Industry trends                               | :--              | :--        | :--       | :--       |
+| Green policy                                  | 87               | 43         | 67        | 90        |
+| Autonomy & Intelligence (AI) Narrative        | 60               | 20         | 55        | 57        |
 
 Worst-case reasoning: 
-"Drops in worst case due to leadership turmoil post-Event B; rises in best case from proactive transparency..."
+- Competitive Advantage: [What caused the change]
+- Industry trends: [What caused the change]
+- Management: [What caused the change]
+- Risks: [What caused the change]
+
+How to mitigate the decline:
+[Strategies to implement to minimize the decrease]
+
+[Company name]'s strength to double down on to achieve growth:
+[Strategies to implement to increase growth]
 
 Base-Case reasoning:
-"Damaged in worst due to environmental event fallout; improved in best from regulatory leadership..."
+- Competitive Advantage: [What caused the change]
+- Industry trends: [What caused the change]
+- Management: [What caused the change]
+- Risks: [What caused the change]
+
+How to mitigate the decline:
+[Strategies to implement to minimize the decrease]
+
+[Company name]'s strength to double down on to achieve growth:
+[Strategies to implement to increase growth]
 
 Best-Case reasoning:
-"Best case includes successful product launch; worst includes R&D cuts..."
+- Competitive Advantage: [What caused the change]
+- Industry trends: [What caused the change]
+- Management: [What caused the change]
+- Risks: [What caused the change]
+
+How to mitigate the decline:
+[Strategies to implement to minimize the decrease]
+
+[Company name]'s strength to double down on to achieve growth:
+[Strategies to implement to increase growth]
