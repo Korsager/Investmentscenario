@@ -24,7 +24,7 @@ Building on the previous prompts (logistic regression modeling and risk/event im
 Assign all the scenarios a base probability of occurrence (estimated using historical data, market intelligence, or Bayesian reasoning), and an ID.
 
 **Step 2** 
-Analyze causal links: Which events could trigger or increase the probability of others?
+Analyze causal links between all 100 events: Which events could trigger or increase the probability of others?
 Example: "Geopolitical sanctions on China (Event A) increase the likelihood of a semiconductor supply chain disruption (Event B) in Q2 2026."
   For each trigger link, assign a conditional probability (e.g., P(B | A) = 30%).
   For each event chain, compute the compound probability:
