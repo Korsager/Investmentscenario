@@ -35,7 +35,7 @@ Estimate the cumulative impact on the dependent variable for each event path.
 
 The *event sequence* can be of any length, but also has multiple events triggered at the same time. 
 The *event sequence* timeline is from today until the end of the investment timeframe.
-Create 20 worlds with their scenario paths (Multiple events can occur in the same world, if the probability is still plausible).
+Create 20 scenario paths, each has multiple events that can happen at the same time.
 
 # Output
 | Scenario Path | Event Sequence    | Compound Probability (%) | Total Estimated Impact (%) | Trigger Explanation                            |
@@ -45,3 +45,7 @@ Create 20 worlds with their scenario paths (Multiple events can occur in the sam
 | Path 4        | C → E → D → B → A | 18%                      | -9.2%                      | C historically precedes E during policy shifts |
 | Path 5        | C → E → D → B → A | 18%                      | -9.2%                      | C historically precedes E during policy shifts |
 |               |         H → J → K |                          |                            |                                                |
+| Path 6        | C → E → D → B → A | 18%                      | -9.2%                      | C historically precedes E during policy shifts |
+|               |         H → J → K |                          |                            |                                                |
+|               | K → L → N         |                          |                            |                                                |
+|               | Q       O         |                          |                            |                                                |
