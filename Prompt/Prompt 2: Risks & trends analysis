@@ -38,4 +38,5 @@ Create a table with 4 columns:
 - Column 1: What is the risk, trend, or event
 - Column 2: What or which parameters are impacted by the scenario
 - Column 3: The maximum % change in the parameter
-- Column 4: The time range within which it can happen
+- Column 4: Impact on the valuation in %
+- Column 5: The time range within which it can happen
