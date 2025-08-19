@@ -31,6 +31,8 @@ Select the representative scenarios for each case:
 - Base case: central tendency (Median value)
 - Best case: top 5%
 
+The objective is to identify how the worst, base, and best-case worlds will impact the stock price  based on normal market growth and strategic objectives.
+
 # Output
 - Forecasted multiple logistic regression chart to the end of the investment timeframe
 - Display the sequence of events that define the specific scenario 
