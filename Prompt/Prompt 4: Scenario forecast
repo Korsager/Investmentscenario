@@ -78,4 +78,4 @@ Display the specific sequence of key events from the simulation that defines thi
 4. Worst Case: [Scenario Name]
 (Repeat the structure from Section 2: A. Narrative, B. Causal Event Chain)
 
-[Create a visual linear graph of the forecasted stock movement with 3 lines, one for each scenario, aligned with each scenario path]
+[Create a visual linear graph of the forecasted stock movement with 3 lines, one for each scenario, showing the change in stock price YoY]
