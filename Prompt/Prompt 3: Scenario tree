@@ -33,17 +33,16 @@ Building on the previous prompts (logistic regression modeling and risk/event im
 •  For independent events or chains within the same scenario, assume independence unless a cross-link is identified, and compute the overall compound probability as the product of individual chain probabilities (e.g., P(Chain1 and Chain2) = P(Chain1) * P(Chain2) if independent).
 •  Estimate the cumulative impact on the dependent variable (company valuation) for each scenario path, aggregating impacts from all chains and isolated events. Include a range for impacts (e.g., -15% to -10%) to account for uncertainty, suitable for Monte Carlo simulations. Consider potential synergies or conflicts between events: Example: “Chain1 (tech breakthrough, +10% to +15%) and isolated Event K (regulatory hurdle, -5% to -3%) conflict, resulting in a net impact of +4% to +10% due to partial offset, as regulation delays tech deployment.”
 •  Assign specific timestamps (e.g., quarters or years, such as Q4 2025) to each event in the sequence to map cascading effects over the investment horizon.
-•  For each scenario path, identify 2-3 early indicators (e.g., rising commodity prices as a precursor to supply disruptions) that could signal the onset of the chain or events.
-•  Provide 1-2 high-level company response strategies per path (e.g., “Diversify suppliers to mitigate geopolitical risks” or “Invest in R&D for competitive edge in breakthroughs”).
+
 The event sequence can be of any length, including long chains of 5+ events to reflect cascading effects. Scenarios must include multiple events or chains triggered at the same time, as well as independent isolated events.
-The event sequence timeline is from today (August 21, 2025) until the end of the investment timeframe.
+The event sequence timeline is from today until the end of the investment timeframe.
 Create 5 diverse scenario paths. Each path represents a plausible “world scenario” and must include:
 •  At least one primary event chain (potentially long, e.g., 4-8 events).
 •  Additional parallel chains or isolated events to add realism (e.g., 2-4 independent elements per path).
 •  A mix of correlated (triggered) and uncorrelated (independent) events to mimic real-world complexity. Aim for a total of 5-10 events per scenario path across all chains and isolates, ensuring variety: some paths with mostly long chains, others with multiple short parallel chains, and some with single isolated events alongside chains. Allow natural variation in impact severities (e.g., some paths may have impacts <-10%, others -5% to +5%, and some >+10%) to provide a balanced foundation without bias.
 
 # Output
-Use the table format below. For scenarios with multiple chains or isolated events, list them on separate lines under the same path, but provide a single compound probability and total estimated impact range for the entire path (aggregating all elements). Explain triggers for linked events, note independence for uncorrelated ones, and include timestamped events with probability justifications. Add classifications for outcome leaning (e.g., Worst, Base, Best, or Neutral if unclear), early indicators, and company responses.
+Use the table format below. For scenarios with multiple chains or isolated events, list them on separate lines under the same path, but provide a single compound probability and total estimated impact range for the entire path (aggregating all elements). Explain triggers for linked events, note independence for uncorrelated ones, and include timestamped events with probability justifications.
 
 | Scenario Path | Event Sequence    | Compound Probability (%) | Total Estimated Impact (%) | Trigger Explanation                            |
 | Path 1        | A → B → D         | 12%                      | -15.4%                     | A increases chance of B by X% due to ...       |
